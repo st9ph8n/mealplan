@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+} 
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+.container{
+  margin:auto;
+  max-width:1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.registercontainer{
+  max-width:1100px;
+  margin:30px auto;
+  
+}
+
+.box{
+padding: 20px;
+}
+.form-group label {
+  color:#666;
+  display:block;
+}
+ .form-group input {
+      
+  width:80%;
+  padding: 10px;
+  border:#ddd 1px solid;
+  border-radius: 5px
+}
+.form-group a{
+  display: block;
+}
+#box-1{
+  float:left;
+  width:50%;
+}
+#box-2{
+  float: right;
+  width:50%;
+}
+button {
+       
+  display:block;
+  padding:10px;
+  margin-top:20px;
+  background: #f7c08a;
+
+  cursor:pointer;
+}
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+color: #fff;
+}
+
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px; 
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+  background: #444;
+  color: #f7c08a;
+}
