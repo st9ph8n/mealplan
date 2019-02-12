@@ -27,10 +27,59 @@ p{
   overflow: auto;
   padding: 0 20px;
 }
+/* .menucontainer{
+  margin: 0px auto;
+  overflow: auto;
+  height: 200px;
+} */
+
+
+#imagebox{
+  background-image: url('../img/biriyani-chicken-cooked-1624487.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px auto;
+  overflow: auto;
+  height: 302px;
+
+}
+.menu-items{
+  margin-top:20px;
+}
+.menusection{
+  margin: auto auto;
+  padding:20px;
+  max-width:1100px;
+  font-family: 'Abel', sans-serif;
+}
+.menu-section-header h2{
+text-align: center;
+padding: 10px;
+font-size:25px;
+}
+.menu-item{
+  width:50%;
+  float:left;
+  padding-left:20px;
+}
+.menu-item-title{
+  font-size: 20px;
+}
+.menu-item-description{
+  margin-right:40px;
+}
+.menu-item .select{
+  margin-bottom:50px;
+}
 .registercontainer{
   max-width:1100px;
   margin:30px auto;
-  
+  overflow:auto;
+  padding:20px;
+  border: 2px solid #333;
+  border-radius:5px;
 }
 
 .box{
@@ -71,6 +120,8 @@ button {
   background: #333;
   color: #fff;
   overflow: auto;
+  position:fixed;
+  width:100%;
 }
 
 #navbar a {
